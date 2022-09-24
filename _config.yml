@@ -79,8 +79,9 @@ theme: yilia-plus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:AlwynLiu/qlwf.git
+  repo: git@github.com:AlwynLiu/AlwynLiu.github.io.git
   branch: main
+  extend_dirs: /public
 
 jsonContent:
   meta: false
