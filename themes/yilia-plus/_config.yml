@@ -2,7 +2,7 @@
 menu:
   主页: /
   技术笔记: https://alwyn.gitee.io/myprivateblogs
-  Python: /python/
+  Python: /linux/
   随笔: /tags/
 
 # subNav-子导航
@@ -196,8 +196,8 @@ apple_touch_icon: false
 # Tab Title Change | 标签页标题切换
 tab_title_change:
   enable: true
-  left_tab_title: '(つェ⊂) 我藏好了哦~ '
-  return_tab_title: '(*´∇｀*) 被你发现啦~ '
+  left_tab_title: ''
+  return_tab_title: ''
 
 # https://github.com/willin/hexo-wordcount
 # 是否开启字数统计(关闭请设置enable为false)
@@ -286,4 +286,4 @@ smart_menu:
 #     url: https://blog.csdn.net/qq_30930805
 
 # 关于我
-aboutme: 主要涉及技术：<br>python开发、前端开发、<br>小程序开发
+aboutme: 主要涉及技术：前端vue全家桶、小程序开发、python开发、sql、jenkins

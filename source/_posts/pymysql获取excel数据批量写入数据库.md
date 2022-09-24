@@ -1,7 +1,7 @@
 ---
 title: pymysql获取excel数据批量写入数据库
 date: 2021-03-16 15:33:35
-tags:
+tags: mysql
 ---
 
 ## 获取excel的数据
