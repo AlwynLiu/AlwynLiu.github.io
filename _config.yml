@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://alwyn.gitee.io/myprivateblogs
-root: /myprivateblogs/
+url: https://alwynliu.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -81,7 +81,6 @@ deploy:
   type: git
   repo: git@github.com:AlwynLiu/AlwynLiu.github.io.git
   branch: main
-  extend_dirs: /public
 
 jsonContent:
   meta: false
