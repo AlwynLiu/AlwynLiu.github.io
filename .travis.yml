@@ -20,9 +20,3 @@ script:
   - hexo clean
   - hexo generate
   - cp README.md ./public/
-
-after_script:
-  - git config --local user.name "travis-ci"
-  - git config --local user.email "deploy@travis-ci.org"
-  - sed -i "s/github_repo_token/${GH_TOKEN}/g" ./_config.yml
-  - hexo deploy
