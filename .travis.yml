@@ -1,18 +1,28 @@
-sudo: false
 language: node_js
-node_js:
-  - 10 # use nodejs v10 LTS
-cache: npm
+node_js: lts/*
+
 branches:
   only:
-    - master # build master branch only
+    - master
+
+cache:
+  directories:
+    - node_modules
+ 
+before_install:
+  - export TZ='America/New_York'
+
+install:
+  - npm install -g hexo-cli
+  - npm install
+
 script:
-  - hexo generate # generate static files
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GH_TOKEN
-  keep-history: true
-  on:
-    branch: main
-  local-dir: public
+  - hexo clean
+  - hexo generate
+  - cp README.md ./public/
+
+after_script:
+  - git config --local user.name "travis-ci"
+  - git config --local user.email "deploy@travis-ci.org"
+  - sed -i "s/github_repo_token/${GH_TOKEN}/g" ./_config.yml
+  - hexo deploy
