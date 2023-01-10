@@ -1,19 +1,19 @@
 ﻿# Header-菜单
 menu:
   主页: /
-  技术笔记: https://alwyn.gitee.io/myprivateblogs
-  Python: /linux/
-  随笔: /tags/
+  # 技术笔记: https://alwyn.gitee.io/myprivateblogs
+  # Python: /linux/
+  # 随笔: /tags/
 
 # subNav-子导航
 subNav:
-  - github: "#"
-  - github: "#" # (支持设置多个)
-  - gitee: "#" # 码云
-  - jianshu: "#" #简书
+  - csdn: "https://blog.csdn.net/alvinliu2031?type=blog"
+  - gitee: "https://gitee.com/Alwyn" # 码云
+  - github: "https://github.com/AlwynLiu"
+  # - github: "#" # (支持设置多个)
+  # - jianshu: "#" #简书
   # - cnblog: "#"
   # - blog: "#"
-  # - csdn: "#"
   # - rss: "#"
   # - zhihu: "#"
   # - qq: "img/2434387555.jpg"
@@ -49,7 +49,7 @@ rss: /atom.xml
 # Content
 
 # 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
-excerpt_link: more
+excerpt_link: 更多
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
