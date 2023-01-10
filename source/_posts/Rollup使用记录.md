@@ -114,11 +114,12 @@ export default { // 可以是一个数组（用于多个输入的情况）
 };
 ```
 # 使用插件
-加载其他类型的资源模块
-导入commonjs模块
-编译ecmascript新特性
-rollup支持使用插件的方式扩展，插件是rollup唯一的扩展方式
-使用rollup-plugin-json
+- 加载其他类型的资源模块
+- 导入commonjs模块
+- 编译ecmascript新特性
+- rollup支持使用插件的方式扩展，插件是rollup唯一的扩展方式
+
+## 使用rollup-plugin-json
 ```js
 // 安装插件
 yarn add rollup-plugin-json --dev

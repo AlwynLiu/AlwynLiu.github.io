@@ -2,6 +2,7 @@
 title: SQL分类查询并统计
 date: 2019-03-05 15:47:08
 tags: Sql Server
+excerpt: SQL聚合统计查询……
 ---
 # 获取业务数据，并分类别统计
 
