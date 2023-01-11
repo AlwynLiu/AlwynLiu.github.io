@@ -8,7 +8,7 @@ excerpt: 记录使用Rollup的常用方法，相关使用规则，以及为什�
 
 # 概述
 rollup是esm打包器，rollup和webpack类似，rollup更加的小巧，仅仅是一款esm的打包器。Rollup并不支持HMR这种高级特性
-简介 | rollup.js 中文文档 | rollup.js中文网 (rollupjs.com)
+[简介 | rollup.js 中文文档 | rollup.js中文网 (rollupjs.com](https://www.rollupjs.com/)
 
 # 上手
 ```js
