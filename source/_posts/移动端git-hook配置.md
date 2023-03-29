@@ -1,7 +1,7 @@
 ---
 title: 移动端git hook配置
 date: 2022-03-10 09:41:51
-tags: 项目工程化
+tags: 前端工程化
 excerpt: husky格式化配置……
 ---
 
